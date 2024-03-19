@@ -1,0 +1,33 @@
+{
+  "preview": true,
+  "workspaces": [
+    "packages/*",
+    "play"
+  ],
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.3",
+    "@floating-ui/utils": "^0.2.1",
+    "@layui/popper": "workspace:*",
+    "@layui/popper-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "prettier": "^3.2.5",
+    "rollup": "^4.12.1",
+    "typescript": "^5.4.2"
+  }
+}

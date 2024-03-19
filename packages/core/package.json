@@ -1,0 +1,13 @@
+{
+  "name": "@layui/popper-core",
+  "license": "MIT",
+  "main": "dist/popper.esm",
+  "types": "dist/types",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "tsc && rollup -c"
+  }
+}

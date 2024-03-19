@@ -1,0 +1,9 @@
+{
+  "name": "@layui/popper",
+  "license": "MIT",
+  "dependencies": {
+    "@layui/popper-core": "workspace:*",
+    "@vueuse/core": "^10.9.0",
+    "less": "^4.2.0"
+  }
+}
